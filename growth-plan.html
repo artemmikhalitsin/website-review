@@ -1,0 +1,1588 @@
+<!DOCTYPE html><html lang="ru"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Комплексный 12-месячный план развития школы НЛП и коучинга премиум-сегмента</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['Playfair Display', 'serif'],
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'sage': {
+                            50: '#f7f8f7',
+                            100: '#e8ebe8',
+                            200: '#d2d7d2',
+                            300: '#adb8ad',
+                            400: '#8a9a8a',
+                            500: '#6d7d6d',
+                            600: '#5a6b5a',
+                            700: '#4a5a4a',
+                            800: '#3d4d3d',
+                            900: '#334033',
+                        },
+                        'charcoal': {
+                            50: '#f6f6f6',
+                            100: '#e7e7e7',
+                            200: '#d1d1d1',
+                            300: '#b0b0b0',
+                            400: '#888888',
+                            500: '#6d6d6d',
+                            600: '#5d5d5d',
+                            700: '#4f4f4f',
+                            800: '#454545',
+                            900: '#3d3d3d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(77, 90, 77, 0.9) 0%, rgba(51, 64, 51, 0.95) 100%);
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .glass-effect {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        .toc-fixed {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            width: 280px;
+            max-height: calc(100vh - 4rem);
+            overflow-y: auto;
+            z-index: 50;
+        }
+        @media (max-width: 1280px) {
+            .toc-fixed {
+                display: none;
+            }
+        }
+        .main-content {
+            margin-left: 320px;
+            max-width: calc(100% - 360px);
+        }
+        @media (max-width: 1280px) {
+            .main-content {
+                margin-left: 0;
+                max-width: 100%;
+            }
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 1.5rem;
+            height: 500px;
+        }
+        .bento-main {
+            grid-row: 1 / 3;
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
+        .bento-side-1 {
+            grid-column: 2;
+            grid-row: 1;
+            border-radius: 0.75rem;
+        }
+        .bento-side-2 {
+            grid-column: 2;
+            grid-row: 2;
+            border-radius: 0.75rem;
+        }
+        @media (max-width: 768px) {
+            .bento-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto;
+                height: auto;
+            }
+            .bento-main {
+                grid-row: 1;
+                height: 300px;
+            }
+            .bento-side-1 {
+                grid-column: 1;
+                grid-row: 2;
+            }
+            .bento-side-2 {
+                grid-column: 1;
+                grid-row: 3;
+            }
+        }
+    </style>
+  <base target="_blank">
+</head>
+
+  <body class="bg-gray-50 font-sans text-charcoal-800">
+    <!-- Fixed Table of Contents -->
+    <nav class="toc-fixed bg-white/95 backdrop-blur-sm border border-sage-200 rounded-xl p-6 shadow-lg">
+      <h3 class="font-serif font-bold text-lg text-charcoal-900 mb-4">Содержание</h3>
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a href="#executive-summary" class="text-sage-600 hover:text-sage-800 transition-colors">Executive Summary</a>
+        </li>
+        <li>
+          <a href="#swot-analysis" class="text-sage-600 hover:text-sage-800 transition-colors">1. SWOT-анализ</a>
+          <ul class="ml-3 mt-1 space-y-1">
+            <li>
+              <a href="#strengths" class="text-sage-500 hover:text-sage-700 transition-colors">Сильные стороны</a>
+            </li>
+            <li>
+              <a href="#weaknesses" class="text-sage-500 hover:text-sage-700 transition-colors">Слабые стороны</a>
+            </li>
+            <li>
+              <a href="#opportunities" class="text-sage-500 hover:text-sage-700 transition-colors">Возможности</a>
+            </li>
+            <li>
+              <a href="#threats" class="text-sage-500 hover:text-sage-700 transition-colors">Угрозы</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#target-audiences" class="text-sage-600 hover:text-sage-800 transition-colors">2. Целевые аудитории</a>
+          <ul class="ml-3 mt-1 space-y-1">
+            <li>
+              <a href="#b2c-segments" class="text-sage-500 hover:text-sage-700 transition-colors">B2C-сегменты</a>
+            </li>
+            <li>
+              <a href="#b2b-segments" class="text-sage-500 hover:text-sage-700 transition-colors">B2B-сегменты</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#competitive-landscape" class="text-sage-600 hover:text-sage-800 transition-colors">3. Конкурентное окружение</a>
+        </li>
+        <li>
+          <a href="#quarterly-strategy" class="text-sage-600 hover:text-sage-800 transition-colors">4. Квартальная стратегия</a>
+          <ul class="ml-3 mt-1 space-y-1">
+            <li>
+              <a href="#q1-foundation" class="text-sage-500 hover:text-sage-700 transition-colors">Q1: Фундамент</a>
+            </li>
+            <li>
+              <a href="#q2-digital" class="text-sage-500 hover:text-sage-700 transition-colors">Q2: Онлайн-продукты</a>
+            </li>
+            <li>
+              <a href="#q3-b2b" class="text-sage-500 hover:text-sage-700 transition-colors">Q3: B2B-развитие</a>
+            </li>
+            <li>
+              <a href="#q4-optimization" class="text-sage-500 hover:text-sage-700 transition-colors">Q4: Оптимизация</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#metrics" class="text-sage-600 hover:text-sage-800 transition-colors">5. Целевые метрики</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Hero Section with Bento Grid -->
+      <section class="px-6 py-8">
+        <div class="bento-grid max-w-7xl mx-auto">
+          <!-- Main Hero Card -->
+          <div class="bento-main bg-gradient-to-br from-sage-800 to-charcoal-900 relative">
+            <img src="https://kimi-web-img.moonshot.cn/img/his.ua/71e7e43e85e5aa1ebecf5eea8b9ec1b9c9469bb0.jpg" alt="Интерьер современной школы коучинга" class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-40" size="wallpaper" aspect="wide" style="photo" query="коучинг школа интерьер" referrerpolicy="no-referrer" data-modified="1" data-score="0.00"/>
+            <div class="hero-gradient absolute inset-0"></div>
+            <div class="relative z-10 p-8 h-full flex flex-col justify-center">
+              <h1 class="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-white text-shadow mb-4 md:mb-6 leading-tight">
+                <em class="text-sage-200">Коучинговая школа</em>
+                <br/>
+                на пороге цифровой трансформации
+              </h1>
+              <p class="text-base md:text-xl text-sage-100 mb-6 md:mb-8 max-w-2xl">
+                Комплексный 12-месячный план развития для школы НЛП и коучинга премиум-сегмента
+              </p>
+              <div class="flex flex-wrap gap-4">
+                <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm font-medium">
+                  <i class="fas fa-chart-line mr-2"></i>Рост выручки на 40-60%
+                </span>
+                <span class="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm font-medium">
+                  <i class="fas fa-users mr-2"></i>Щелкни на меня!
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Side Cards -->
+          <div class="bento-side-1 bg-white border border-sage-200 p-6 flex items-center">
+            <div>
+              <div class="text-2xl font-bold text-charcoal-900 mb-2">15 лет</div>
+              <div class="text-sage-600 font-medium">Опыт работы на рынке</div>
+              <div class="text-sm text-charcoal-500 mt-1">Государственная лицензия № Л035-01271-78/01043140</div>
+            </div>
+          </div>
+
+          <div class="bento-side-2 bg-sage-50 border border-sage-200 p-6 flex items-center">
+            <div>
+              <div class="text-2xl font-bold text-charcoal-900 mb-2">50+ стран</div>
+              <div class="text-sage-600 font-medium">Международная аккредитация</div>
+              <div class="text-sm text-charcoal-500 mt-1">IAC, ITA NLP Master Trainer</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Executive Summary -->
+      <section id="executive-summary" class="px-6 py-12">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="font-serif text-3xl font-bold text-charcoal-900 mb-8">Executive Summary</h2>
+
+          <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="space-y-6">
+              <div class="bg-white border border-sage-200 rounded-lg p-6">
+                <h3 class="font-semibold text-lg text-charcoal-900 mb-3">
+                  <i class="fas fa-bullseye text-sage-600 mr-2"></i>Ключевые цели
+                </h3>
+                <ul class="space-y-2 text-charcoal-700">
+                  <li class="flex items-center">
+                    <i class="fas fa-check-circle text-sage-500 mr-2"></i>
+                    Рост выручки на 40-60% за 12 месяцев
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-check-circle text-sage-500 mr-2"></i>
+                    Снижение CAC на 25% за счет автоматизации
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-check-circle text-sage-500 mr-2"></i>
+                    Увеличение доли онлайн-продаж до 50%
+                  </li>
+                </ul>
+              </div>
+
+              <div class="bg-sage-50 border border-sage-200 rounded-lg p-6">
+                <h3 class="font-semibold text-lg text-charcoal-900 mb-3">
+                  <i class="fas fa-cogs text-sage-600 mr-2"></i>Стратегические приоритеты
+                </h3>
+                <ul class="space-y-2 text-charcoal-700">
+                  <li class="flex items-center">
+                    <i class="fas fa-arrow-right text-sage-500 mr-2"></i>
+                    Внедрение CRM и сквозной аналитики
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-arrow-right text-sage-500 mr-2"></i>
+                    Запуск онлайн-продуктов
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-arrow-right text-sage-500 mr-2"></i>
+                    Развитие B2B-направления
+                  </li>
+                  <li class="flex items-center">
+                    <i class="fas fa-arrow-right text-sage-500 mr-2"></i>
+                    Система удержания с LTV-фокусом
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              <div class="bg-white border border-sage-200 rounded-lg p-6">
+                <h3 class="font-semibold text-lg text-charcoal-900 mb-3">
+                  <i class="fas fa-chart-bar text-sage-600 mr-2"></i>Текущая ситуация
+                </h3>
+                <p class="text-charcoal-700 mb-4">
+                  Школа с 15-летним опытом и государственной лицензией обладает уникальными конкурентными преимуществами, но сталкивается с ограничениями масштабирования из-за зависимости от офлайн-формата.
+                </p>
+                <div class="bg-sage-100 rounded-lg p-4">
+                  <div class="text-sm text-sage-700">
+                    <strong>Ключевой вызов:</strong> Цифровая трансформация для охвата новых рынков и повышения эффективности продаж
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-charcoal-900 text-white rounded-lg p-6">
+                <h3 class="font-semibold text-lg mb-3">
+                  <i class="fas fa-lightbulb text-sage-400 mr-2"></i>Стратегическое видение
+                </h3>
+                <p class="text-sage-200">
+                  Создание гибридной образовательной платформы, объединяющей преимущества офлайн-практики и онлайн-масштабируемости, с фокусом на корпоративный сегмент и международную экспансию.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <blockquote class="border-l-4 border-sage-500 bg-sage-50 p-6 italic text-lg text-charcoal-800">
+            &#34;Сочетание глубокой экспертизы, международной аккредитации и 15-летнего опыта создает уникальную основу для трансформации в ведущую цифровую платформу коучингового образования премиум-класса.&#34;
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- SWOT Analysis -->
+      <section id="swot-analysis" class="px-6 py-12 bg-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="font-serif text-4xl font-bold text-charcoal-900 mb-12 text-center">SWOT-анализ организации</h2>
+
+          <!-- Strengths -->
+          <div id="strengths" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-trophy text-sage-600 mr-3"></i>Сильные стороны (Strengths)
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+              <div class="space-y-6">
+                <div class="bg-sage-50 border border-sage-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-calendar-alt text-sage-600 mr-2"></i>15-летний опыт работы
+                  </h4>
+                  <p class="text-charcoal-700">
+                    Накопленная база выпускников, отработанные методологии и устойчивость бизнес-модели. Социальное доказательство через обширную профессиональную сеть.
+                  </p>
+                </div>
+
+                <div class="bg-sage-50 border border-sage-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-certificate text-sage-600 mr-2"></i>Государственная лицензия
+                  </h4>
+                  <p class="text-charcoal-700">
+                    Лицензия № Л035-01271-78/01043140 обеспечивает легитимность, доступ к налоговым вычетам (13%) и государственным закупкам.
+                  </p>
+                </div>
+              </div>
+
+              <div class="space-y-6">
+                <div class="bg-sage-50 border border-sage-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-globe text-sage-600 mr-2"></i>Международная аккредитация
+                  </h4>
+                  <p class="text-charcoal-700">
+                    IAC-аккредитация, президентство Ирины Михалициной в IAC Russia, признание в 50+ странах. ITA NLP Master Trainer с менторингом от Джона Гриндера.
+                  </p>
+                </div>
+
+                <div class="bg-sage-50 border border-sage-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-graduation-cap text-sage-600 mr-2"></i>Глубина программ
+                  </h4>
+                  <p class="text-charcoal-700">
+                    Программы от 180 до 320 часов, включая 50+ стажировочных площадок, 5 видов практики и 12-месячную поддержку выпускников.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white border border-sage-200 rounded-xl overflow-hidden">
+              <div class="bg-sage-100 px-6 py-4">
+                <h4 class="font-semibold text-charcoal-900">Конкурентные преимущества</h4>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full">
+                  <thead class="bg-sage-50">
+                    <tr>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Преимущество</th>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Проявление</th>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Стратегическая ценность</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-sage-200">
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">15-летний опыт</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">База выпускников, отработанные методологии</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Доверие, социальное доказательство, реферальный трафик</td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Государственная лицензия</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">№ Л035-01271-78/01043140</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Налоговые вычеты, доступ к госзакупкам, легитимность</td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Международная аккредитация</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Президентство в IAC Russia</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Глобальное признание, доступ к стандартам, нетворкинг</td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Эксклюзивный статус тренера</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">ITA NLP Master Trainer, менторинг у Джона Гриндера</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Невоспроизводимая экспертиза, премиальное позиционирование</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weaknesses -->
+          <div id="weaknesses" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-exclamation-triangle text-orange-600 mr-3"></i>Слабые стороны (Weaknesses)
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-orange-50 border border-orange-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-desktop text-orange-600 mr-2"></i>Ограниченная цифровая зрелость
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Отсутствие видимых инструментов аналитики (Яндекс.Метрика, Google Analytics) и CRM-системы. Архаичная информационная архитектура сайта на платформе Tilda.
+                </p>
+                <div class="bg-orange-100 rounded-lg p-3">
+                  <div class="text-sm font-medium text-orange-800">Риск: Упущенная конверсия, невозможность оптимизации маркетинга</div>
+                </div>
+              </div>
+
+              <div class="bg-orange-50 border border-orange-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-building text-orange-600 mr-2"></i>Зависимость от офлайн-формата
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Доминирование живых тренингов с практикой 1-2 раза в неделю. Географические ограничения и сложности масштабирования.
+                </p>
+                <div class="bg-orange-100 rounded-lg p-3">
+                  <div class="text-sm font-medium text-orange-800">Риск: Утрата конкурентоспособности перед цифровыми игроками</div>
+                </div>
+              </div>
+
+              <div class="bg-orange-50 border border-orange-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-funnel-dollar text-orange-600 mr-2"></i>Непрозрачность воронки продаж
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Отсутствие информации о CRM и конверсионных метриках. Сложность управления и невозможность привлечения инвестиций.
+                </p>
+                <div class="bg-orange-100 rounded-lg p-3">
+                  <div class="text-sm font-medium text-orange-800">Риск: Неэффективное использование маркетингового бюджета</div>
+                </div>
+              </div>
+
+              <div class="bg-orange-50 border border-orange-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-pen-alt text-orange-600 mr-2"></i>Отсутствие контент-маркетинга
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Нерегулярные публикации, слабое SEO-присутствие. Высокая зависимость от платного трафика и низкий органический охват.
+                </p>
+                <div class="bg-orange-100 rounded-lg p-3">
+                  <div class="text-sm font-medium text-orange-800">Риск: Высокая стоимость привлечения клиентов</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Opportunities -->
+          <div id="opportunities" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-rocket text-green-600 mr-3"></i>Возможности (Opportunities)
+            </h3>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+              <div class="bg-green-50 border border-green-200 rounded-xl p-6">
+                <div class="bg-green-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                  <i class="fas fa-building text-green-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3">Корпоративный сегмент</h4>
+                <p class="text-charcoal-700 mb-4">
+                  Рост бюджетов на коучинг на 15-20% годовых. Дефицит квалифицированных коучей в крупных компаниях.
+                </p>
+                <div class="text-sm text-green-700 font-medium">
+                  <i class="fas fa-calendar mr-1"></i>Реализация: Q2-Q3
+                </div>
+              </div>
+
+              <div class="bg-green-50 border border-green-200 rounded-xl p-6">
+                <div class="bg-green-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                  <i class="fas fa-laptop text-green-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3">Онлайн-трансформация</h4>
+                <p class="text-charcoal-700 mb-4">
+                  67% руководителей готовы к онлайн-формату. Зрелость технологий для гибридных программ.
+                </p>
+                <div class="text-sm text-green-700 font-medium">
+                  <i class="fas fa-calendar mr-1"></i>Реализация: Q1-Q2
+                </div>
+              </div>
+
+              <div class="bg-green-50 border border-green-200 rounded-xl p-6">
+                <div class="bg-green-100 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+                  <i class="fas fa-map-marked-alt text-green-600 text-xl"></i>
+                </div>
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3">Региональная экспансия</h4>
+                <p class="text-charcoal-700 mb-4">
+                  Недоосвоенный спрос в 70+ городах. Отсутствие премиальных конкурентов в регионах.
+                </p>
+                <div class="text-sm text-green-700 font-medium">
+                  <i class="fas fa-calendar mr-1"></i>Реализация: Q2-Q4
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-green-100 border border-green-200 rounded-xl p-6">
+              <h4 class="font-semibold text-lg text-charcoal-900 mb-4">
+                <i class="fas fa-chart-line text-green-600 mr-2"></i>Анализ рыночных возможностей
+              </h4>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">Макротренды</h5>
+                  <ul class="text-sm text-charcoal-700 space-y-1">
+                    <li>• Повышенный спрос на коучинг в корпоративном секторе</li>
+                    <li>• Ускоренная цифровизация образовательных услуг</li>
+                    <li>• Рост бюджетов на развитие персонала (15-20% годовых)</li>
+                    <li>• Формирование привычек к онлайн-обучению</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">Возможности для школы</h5>
+                  <ul class="text-sm text-charcoal-700 space-y-1">
+                    <li>• Географическая экспансия без капитальных затрат</li>
+                    <li>• Диверсификация выручки через B2B-сегмент</li>
+                    <li>• Создание стабильного потока recurring-выручки</li>
+                    <li>• Формирование сообщества до появления конкурентов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Threats -->
+          <div id="threats" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-shield-alt text-red-600 mr-3"></i>Угрозы (Threats)
+            </h3>
+
+            <div class="space-y-6">
+              <div class="bg-red-50 border border-red-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-globe-americas text-red-600 mr-2"></i>Международные онлайн-платформы
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Coursera, Udemy, CoachHub, BetterUp активно локализуют контент. Значительные маркетинговые бюджеты и узнаваемые глобальные бренды создают давление на премиальное позиционирование.
+                </p>
+                <div class="grid grid-cols-3 gap-4 text-center">
+                  <div class="bg-red-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-red-800">Вероятность</div>
+                    <div class="text-red-600 font-bold">Высокая</div>
+                  </div>
+                  <div class="bg-red-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-red-800">Влияние</div>
+                    <div class="text-red-600 font-bold">Среднее</div>
+                  </div>
+                  <div class="bg-red-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-red-800">Стратегия</div>
+                    <div class="text-red-600 font-bold">Дифференциация</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-orange-50 border border-orange-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-chart-line-down text-orange-600 mr-2"></i>Экономическое давление
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Макроэкономическая нестабильность, волатильность курса рубля и потенциальное сокращение бюджетов на обучение создают риски для премиального сегмента.
+                </p>
+                <div class="grid grid-cols-3 gap-4 text-center">
+                  <div class="bg-orange-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-orange-800">Вероятность</div>
+                    <div class="text-orange-600 font-bold">Средняя</div>
+                  </div>
+                  <div class="bg-orange-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-orange-800">Влияние</div>
+                    <div class="text-orange-600 font-bold">Высокое</div>
+                  </div>
+                  <div class="bg-orange-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-orange-800">Стратегия</div>
+                    <div class="text-orange-600 font-bold">Диверсификация</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-6">
+                <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                  <i class="fas fa-gavel text-yellow-600 mr-2"></i>Регуляторные изменения
+                </h4>
+                <p class="text-charcoal-700 mb-4">
+                  Ужесточение регулирования образовательной деятельности, изменения 152-ФЗ с 1 июля 2025 года, требования к лицензированию онлайн-программ.
+                </p>
+                <div class="grid grid-cols-3 gap-4 text-center">
+                  <div class="bg-yellow-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-yellow-800">Вероятность</div>
+                    <div class="text-yellow-600 font-bold">Средняя</div>
+                  </div>
+                  <div class="bg-yellow-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-yellow-800">Влияние</div>
+                    <div class="text-yellow-600 font-bold">Среднее</div>
+                  </div>
+                  <div class="bg-yellow-100 rounded-lg p-3">
+                    <div class="text-sm font-medium text-yellow-800">Стратегия</div>
+                    <div class="text-yellow-600 font-bold">Проактивная адаптация</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Target Audiences -->
+      <section id="target-audiences" class="px-6 py-12 bg-sage-50">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="font-serif text-4xl font-bold text-charcoal-900 mb-12 text-center">Анализ целевых аудиторий</h2>
+
+          <!-- B2C Segments -->
+          <div id="b2c-segments" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-users text-sage-600 mr-3"></i>B2C-сегменты
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+              <div class="bg-white border border-sage-200 rounded-xl p-6">
+                <div class="flex items-center mb-4">
+                  <div class="bg-sage-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                    <i class="fas fa-user-tie text-sage-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-lg text-charcoal-900">Будущие профессиональные коучи</h4>
+                    <div class="text-sm text-sage-600">Ключевой сегмент</div>
+                  </div>
+                </div>
+
+                <div class="space-y-4">
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Демография</h5>
+                    <p class="text-sm text-charcoal-700">Женщины 28–45 лет, смена карьеры, высшее образование</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Ключевые мотиваторы</h5>
+                    <p class="text-sm text-charcoal-700">Международное признание, сообщество, доход, независимость</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Триггеры покупки</h5>
+                    <p class="text-sm text-charcoal-700">Карьерный кризис, желание независимости, духовный поиск</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Предпочтительные каналы</h5>
+                    <p class="text-sm text-charcoal-700">Рекомендации, контент от практиков, SEO, профессиональные сообщества</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white border border-sage-200 rounded-xl p-6">
+                <div class="flex items-center mb-4">
+                  <div class="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                    <i class="fas fa-brain text-blue-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-lg text-charcoal-900">Практикующие специалисты</h4>
+                    <div class="text-sm text-sage-600">Высокий LTV</div>
+                  </div>
+                </div>
+
+                <div class="space-y-4">
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Демография</h5>
+                    <p class="text-sm text-charcoal-700">Психологи, HR, консультанты 30–45 лет</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Ключевые мотиваторы</h5>
+                    <p class="text-sm text-charcoal-700">Инструменты, интеграция, конкурентное преимущество, супервизия</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Триггеры покупки</h5>
+                    <p class="text-sm text-charcoal-700">Профессиональное выгорание, запросы клиентов, необходимость расширения инструментария</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Предпочтительные каналы</h5>
+                    <p class="text-sm text-charcoal-700">Профессиональные сообщества, конференции, рекомендации коллег</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-white border border-sage-200 rounded-xl p-6">
+                <div class="flex items-center mb-4">
+                  <div class="bg-purple-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                    <i class="fas fa-seedling text-purple-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-lg text-charcoal-900">Личностный рост</h4>
+                    <div class="text-sm text-sage-600">Широкая аудитория</div>
+                  </div>
+                </div>
+
+                <div class="space-y-4">
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Демография</h5>
+                    <p class="text-sm text-charcoal-700">Разнообразная аудитория 25–45 лет</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Ключевые мотиваторы</h5>
+                    <p class="text-sm text-charcoal-700">Трансформация, осознанность, отношения, поиск смысла</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Триггеры покупки</h5>
+                    <p class="text-sm text-charcoal-700">Жизненные переходы, кризисы идентичности, духовный поиск</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Предпочтительные каналы</h5>
+                    <p class="text-sm text-charcoal-700">Социальные сети, инфлюенсеры саморазвития, трансформационные истории</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white border border-sage-200 rounded-xl p-6">
+                <div class="flex items-center mb-4">
+                  <div class="bg-amber-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                    <i class="fas fa-crown text-amber-600 text-xl"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-lg text-charcoal-900">Руководители-ученики</h4>
+                    <div class="text-sm text-sage-600">Премиальный сегмент</div>
+                  </div>
+                </div>
+
+                <div class="space-y-4">
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Демография</h5>
+                    <p class="text-sm text-charcoal-700">Топ-менеджеры, предприниматели 35–55 лет</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Ключевые мотиваторы</h5>
+                    <p class="text-sm text-charcoal-700">Результативность, команда, баланс, практическая применимость</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Триггеры покупки</h5>
+                    <p class="text-sm text-charcoal-700">Бизнес-вызовы, кризисы управления, необходимость развития команды</p>
+                  </div>
+
+                  <div>
+                    <h5 class="font-medium text-charcoal-900 mb-2">Предпочтительные каналы</h5>
+                    <p class="text-sm text-charcoal-700">Корпоративные сети, executive-коучинг, нетворкинг, деловые мероприятия</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- B2B Segments -->
+          <div id="b2b-segments" class="mb-16">
+            <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+              <i class="fas fa-handshake text-sage-600 mr-3"></i>B2B-сегменты
+            </h3>
+
+            <div class="bg-white border border-sage-200 rounded-xl p-6 mb-8">
+              <h4 class="font-semibold text-lg text-charcoal-900 mb-6">Стратегическое направление для диверсификации выручки</h4>
+              <p class="text-charcoal-700 mb-6">
+                Корпоративный сегмент представляет высокий потенциал для стабильного роста с длительными циклами сотрудничества и предсказуемым объемом заказов.
+              </p>
+
+              <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <div class="bg-blue-100 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                    <i class="fas fa-users text-blue-600"></i>
+                  </div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">HR-департаменты</h5>
+                  <div class="text-xs text-charcoal-600 mb-2">500+ сотрудников</div>
+                  <p class="text-sm text-charcoal-700 mb-3">Развитие руководителей, вовлеченность, текучесть</p>
+                  <div class="text-xs text-blue-600 font-medium">Цикл: 3-12 месяцев</div>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <div class="bg-green-100 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                    <i class="fas fa-university text-green-600"></i>
+                  </div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">Корпоративные университеты</h5>
+                  <div class="text-xs text-charcoal-600 mb-2">Крупные холдинги</div>
+                  <p class="text-sm text-charcoal-700 mb-3">Лицензирование методологии, сертификация тренеров</p>
+                  <div class="text-xs text-green-600 font-medium">Цикл: 6-12 месяцев</div>
+                </div>
+
+                <div class="bg-amber-50 border border-amber-200 rounded-lg p-4">
+                  <div class="bg-amber-100 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                    <i class="fas fa-chart-line text-amber-600"></i>
+                  </div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">Консалтинговые компании</h5>
+                  <div class="text-xs text-charcoal-600 mb-2">Оргразвитие</div>
+                  <p class="text-sm text-charcoal-700 mb-3">Надежный субподряд, качество, сроки</p>
+                  <div class="text-xs text-amber-600 font-medium">Цикл: 1-3 месяца</div>
+                </div>
+
+                <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                  <div class="bg-purple-100 rounded-full w-10 h-10 flex items-center justify-center mb-3">
+                    <i class="fas fa-landmark text-purple-600"></i>
+                  </div>
+                  <h5 class="font-medium text-charcoal-900 mb-2">Государственные учреждения</h5>
+                  <div class="text-xs text-charcoal-600 mb-2">Бюджетные организации</div>
+                  <p class="text-sm text-charcoal-700 mb-3">Соответствие требованиям, отчетность, безопасность</p>
+                  <div class="text-xs text-purple-600 font-medium">Цикл: 6-18 месяцев</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white border border-sage-200 rounded-xl overflow-hidden">
+              <div class="bg-sage-100 px-6 py-4">
+                <h4 class="font-semibold text-charcoal-900">Критерии выбора поставщика по B2B-сегментам</h4>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full">
+                  <thead class="bg-sage-50">
+                    <tr>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Сегмент</th>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Ключевые потребности</th>
+                      <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Критерии выбора</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-sage-200">
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">HR-департаменты</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Развитие руководителей, вовлеченность, текучесть</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Репутация, кейсы, измеримость результатов, лицензия</td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Корпоративные университеты</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Лицензирование методологии, сертификация тренеров</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Экспертиза, гибкость, поддержка внедрения</td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Консалтинговые компании</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Надежный субподряд, качество, сроки</td>
+                      <td class="px-6 py-4 text-sm text-charcoal-700">Профессионализм, доступность, партнерские условия</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Competitive Landscape -->
+      <section id="competitive-landscape" class="px-6 py-12 bg-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="font-serif text-4xl font-bold text-charcoal-900 mb-12 text-center">Конкурентное окружение</h2>
+
+          <div class="grid lg:grid-cols-2 gap-12 mb-12">
+            <!-- Direct Competitors -->
+            <div>
+              <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+                <i class="fas fa-crosshairs text-sage-600 mr-3"></i>Прямые конкуренты
+              </h3>
+
+              <div class="space-y-6">
+                <div class="bg-blue-50 border border-blue-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-globe text-blue-600 mr-2"></i>Международные академии
+                  </h4>
+                  <div class="space-y-3">
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Ключевые представители</h5>
+                      <p class="text-sm text-charcoal-700">Moscow Coaching Institute (ICF), Coaching Federation Russia, European Coaching Institute</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Сильные стороны</h5>
+                      <p class="text-sm text-charcoal-700">Глобальное признание, стандарты, нетворкинг</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Слабые стороны</h5>
+                      <p class="text-sm text-charcoal-700">Высокая цена, западная методология, слабая практика</p>
+                    </div>
+                    <div class="bg-blue-100 rounded-lg p-3">
+                      <div class="text-sm font-medium text-blue-800">Стратегия противодействия: Практическая направленность, российский контекст, стажировки</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-bullseye text-green-600 mr-2"></i>Узкоспециализированные школы
+                  </h4>
+                  <div class="space-y-3">
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Ключевые представители</h5>
+                      <p class="text-sm text-charcoal-700">НЛП-Университет, Академия НЛП, Институт Современного НЛП (25 филиалов)</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Сильные стороны</h5>
+                      <p class="text-sm text-charcoal-700">Глубина в нише, личный бренд основателя</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Слабые стороны</h5>
+                      <p class="text-sm text-charcoal-700">Ограниченный портфель, нет международной аккредитации</p>
+                    </div>
+                    <div class="bg-green-100 rounded-lg p-3">
+                      <div class="text-sm font-medium text-green-800">Стратегия противодействия: Международное признание, комплексность, карьерная поддержка</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="font-serif text-2xl font-bold text-charcoal-900 mb-8 flex items-center">
+                <i class="fas fa-laptop text-sage-600 mr-3"></i>Онлайн-платформы
+              </h3>
+
+              <div class="space-y-6">
+                <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-cloud text-amber-600 mr-2"></i>Международные онлайн-платформы
+                  </h4>
+                  <div class="space-y-3">
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Ключевые представители</h5>
+                      <p class="text-sm text-charcoal-700">The Knowledge Academy ($1695-$4495), Coursera, Udemy, CoachHub, BetterUp</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Сильные стороны</h5>
+                      <p class="text-sm text-charcoal-700">Масштаб, цена, технологии, гибкость, глобальный бренд</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Слабые стороны</h5>
+                      <p class="text-sm text-charcoal-700">Имперсональность, отсутствие сообщества, поверхностная адаптация</p>
+                    </div>
+                    <div class="bg-amber-100 rounded-lg p-3">
+                      <div class="text-sm font-medium text-amber-800">Стратегия противодействия: Живое взаимодействие, практика, выпускники-сообщество</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-red-50 border border-red-200 rounded-xl p-6">
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-3 flex items-center">
+                    <i class="fas fa-shield-alt text-red-600 mr-2"></i>Косвенные конкуренты
+                  </h4>
+                  <div class="space-y-3">
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Корпоративные тренинговые компании</h5>
+                      <p class="text-sm text-charcoal-700">Бизнес-Молодость, Тренинговый центр &#34;Синергия&#34;, COPEX Training</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Бизнес-школы</h5>
+                      <p class="text-sm text-charcoal-700">Сколково, РШЭ, ИМИСП с программами лидерства</p>
+                    </div>
+                    <div>
+                      <h5 class="font-medium text-charcoal-900 text-sm">Самостоятельное онлайн-обучение</h5>
+                      <p class="text-sm text-charcoal-700">Книги, подкасты, YouTube-каналы, курсы на платформах</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Competitive Matrix -->
+          <div class="bg-white border border-sage-200 rounded-xl overflow-hidden">
+            <div class="bg-sage-100 px-6 py-4">
+              <h4 class="font-semibold text-charcoal-900">Матрица конкурентного позиционирования</h4>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="w-full">
+                <thead class="bg-sage-50">
+                  <tr>
+                    <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Категория конкурентов</th>
+                    <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Сильные стороны</th>
+                    <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Слабые стороны</th>
+                    <th class="px-6 py-3 text-left text-sm font-semibold text-charcoal-900">Стратегия дифференциации</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-sage-200">
+                  <tr>
+                    <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Международные академии</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Глобальное признание, стандарты, нетворкинг</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Высокая цена, западная методология, слабая практика</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Практическая направленность, российский контекст, стажировки</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Узкоспециализированные школы</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Глубина в нише, личный бренд</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Ограниченный портфель, нет международной аккредитации</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Международное признание, комплексность, карьерная поддержка</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-sm font-medium text-charcoal-900">Онлайн-платформы</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Масштаб, цена, технологии</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Имперсональность, отсутствие сообщества</td>
+                    <td class="px-6 py-4 text-sm text-charcoal-700">Живое взаимодействие, практика, выпускники-сообщество</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quarterly Strategy -->
+      <section id="quarterly-strategy" class="px-6 py-12 bg-sage-50">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="font-serif text-4xl font-bold text-charcoal-900 mb-12 text-center">Квартальная стратегия реализации</h2>
+
+          <!-- Q1: Foundation -->
+          <div id="q1-foundation" class="mb-16">
+            <div class="bg-white border border-sage-200 rounded-xl p-8 mb-8">
+              <div class="flex items-center mb-6">
+                <div class="bg-sage-100 rounded-full w-16 h-16 flex items-center justify-center mr-6">
+                  <span class="font-bold text-sage-600 text-xl">Q1</span>
+                </div>
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal-900">Фундамент и цифровая инфраструктура</h3>
+                  <p class="text-charcoal-600">Январь - Март 2025</p>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-cogs text-sage-600 mr-2"></i>Технологическое оснащение
+                  </h4>
+                  <ul class="space-y-3 text-charcoal-700">
+                    <li class="flex items-start">
+                      <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                      <div>
+                        <strong>Реализация CRM-системы</strong>
+                        <br/>
+                        <span class="text-sm">Выбор и внедрение amoCRM/BITRIX24, интеграция с сайтом, настройка воронки продаж</span>
+                      </div>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                      <div>
+                        <strong>Сквозная аналитика</strong>
+                        <br/>
+                        <span class="text-sm">Настройка Яндекс.Метрики, Google Analytics 4, системы отслеживания конверсий</span>
+                      </div>
+                    </li>
+                    <li class="flex items-start">
+                      <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                      <div>
+                        <strong>Автоматизация маркетинга</strong>
+                        <br/>
+                        <span class="text-sm">Система email-рассылок, чат-боты, триггерные кампании, персонализация</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-bullseye text-sage-600 mr-2"></i>Цели на квартал
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-sage-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Внедрение CRM</span>
+                        <span class="text-sm text-sage-600">100%</span>
+                      </div>
+                      <div class="w-full bg-sage-200 rounded-full h-2">
+                        <div class="bg-sage-600 h-2 rounded-full" style="width: 100%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bg-sage-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Аналитика и отслеживание</span>
+                        <span class="text-sm text-sage-600">100%</span>
+                      </div>
+                      <div class="w-full bg-sage-200 rounded-full h-2">
+                        <div class="bg-sage-600 h-2 rounded-full" style="width: 100%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bg-sage-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Автоматизация процессов</span>
+                        <span class="text-sm text-sage-600">80%</span>
+                      </div>
+                      <div class="w-full bg-sage-200 rounded-full h-2">
+                        <div class="bg-sage-600 h-2 rounded-full" style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <div class="text-sm font-medium text-blue-800 mb-2">Ожидаемый результат</div>
+                    <div class="text-sm text-blue-700">Снижение CAC на 15%, прозрачность воронки продаж, база для масштабирования</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q2: Online Products -->
+          <div id="q2-digital" class="mb-16">
+            <div class="bg-white border border-sage-200 rounded-xl p-8 mb-8">
+              <div class="flex items-center mb-6">
+                <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mr-6">
+                  <span class="font-bold text-blue-600 text-xl">Q2</span>
+                </div>
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal-900">Запуск онлайн-продуктов</h3>
+                  <p class="text-charcoal-600">Апрель - Июнь 2025</p>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-graduation-cap text-blue-600 mr-2"></i>Гибридные программы
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Синхронный онлайн-формат</h5>
+                      <p class="text-sm text-charcoal-700">Живые трансляции тренингов, интерактивные практики, обратная связь в реальном времени</p>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Асинхронная составляющая</h5>
+                      <p class="text-sm text-charcoal-700">Записанные материалы, дополнительные ресурсы, гибкость обучения</p>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">LMS-платформа</h5>
+                      <p class="text-sm text-charcoal-700">Система управления обучением, трекинг прогресса, сертификация</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-share-alt text-blue-600 mr-2"></i>Контент-маркетинг
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Блог и SEO</h5>
+                      <p class="text-sm text-charcoal-700">Статьи по коучингу, НЛП, личностному росту, оптимизация для поисковых систем</p>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">YouTube-канал</h5>
+                      <p class="text-sm text-charcoal-700">Образовательные видео, трансформационные истории, экспертные интервью</p>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Подкаст</h5>
+                      <p class="text-sm text-charcoal-700">Аудиоконтент для занятых профессионалов, кейсы из практики</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-bullseye text-blue-600 mr-2"></i>Цели на квартал
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-blue-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Запуск гибридных программ</span>
+                        <span class="text-sm text-blue-600">100%</span>
+                      </div>
+                      <div class="w-full bg-blue-200 rounded-full h-2">
+                        <div class="bg-blue-600 h-2 rounded-full" style="width: 100%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bg-blue-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Запуск LMS-платформы</span>
+                        <span class="text-sm text-blue-600">100%</span>
+                      </div>
+                      <div class="w-full bg-blue-200 rounded-full h-2">
+                        <div class="bg-blue-600 h-2 rounded-full" style="width: 100%"></div>
+                      </div>
+                    </div>
+
+                    <div class="bg-blue-50 rounded-lg p-4">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-charcoal-900">Контент-стратегия</span>
+                        <span class="text-sm text-blue-600">75%</span>
+                      </div>
+                      <div class="w-full bg-blue-200 rounded-full h-2">
+                        <div class="bg-blue-600 h-2 rounded-full" style="width: 75%"></div>
+                      </div>
+                    </div>
+
+                    <div class="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+                      <div class="text-sm font-medium text-green-800 mb-2">Ожидаемый результат</div>
+                      <div class="text-sm text-green-700">Доля онлайн-продаж 25%, рост органического трафика на 40%, географическая экспансия в 20+ города</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q3: B2B Development -->
+          <div id="q3-b2b" class="mb-16">
+            <div class="bg-white border border-sage-200 rounded-xl p-8 mb-8">
+              <div class="flex items-center mb-6">
+                <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mr-6">
+                  <span class="font-bold text-green-600 text-xl">Q3</span>
+                </div>
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal-900">Развитие B2B-направления</h3>
+                  <p class="text-charcoal-600">Июль - Сентябрь 2025</p>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-building text-green-600 mr-2"></i>Корпоративные программы
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Выделенный B2B-отдел</h5>
+                      <p class="text-sm text-charcoal-700">Найм sales-менеджеров с опытом работы с корпоративными клиентами, настройка процессов</p>
+                    </div>
+
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Аккаунт-базед маркетинг (ABM)</h5>
+                      <p class="text-sm text-charcoal-700">Персонализированные кампании для ключевых корпоративных клиентов, мультиканальный подход</p>
+                    </div>
+
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Кастомизированные программы</h5>
+                      <p class="text-sm text-charcoal-700">Разработка корпоративных курсов под специфику клиента, интеграция с внутренними процессами</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-handshake text-green-600 mr-2"></i>Партнерства и каналы
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">HR-агентства и консалтинг</h5>
+                      <p class="text-sm text-charcoal-700">Партнерские программы, комиссионные схемы, совместные проекты</p>
+                    </div>
+
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Корпоративные университеты</h5>
+                      <p class="text-sm text-charcoal-700">Лицензирование контента, сертификация внутренних тренеров, white-label решения</p>
+                    </div>
+
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Тендерная активность</h5>
+                      <p class="text-sm text-charcoal-700">Участие в государственных и корпоративных тендерах, работа с едиными порталами закупок</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q4: Optimization -->
+          <div id="q4-optimization" class="mb-16">
+            <div class="bg-white border border-sage-200 rounded-xl p-8 mb-8">
+              <div class="flex items-center mb-6">
+                <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mr-6">
+                  <span class="font-bold text-purple-600 text-xl">Q4</span>
+                </div>
+                <div>
+                  <h3 class="font-serif text-2xl font-bold text-charcoal-900">Оптимизация и масштабирование</h3>
+                  <p class="text-charcoal-600">Октябрь - Декабрь 2025</p>
+                </div>
+              </div>
+
+              <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-chart-line text-purple-600 mr-2"></i>Анализ и оптимизация
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Анализ данных</h5>
+                      <p class="text-sm text-charcoal-700">Глубокий анализ показателей за 9 месяцев, выявление точек роста и оптимизации</p>
+                    </div>
+
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Оптимизация воронки</h5>
+                      <p class="text-sm text-charcoal-700">Улучшение конверсии на всех этапах, A/B тестирование, персонализация</p>
+                    </div>
+
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Система удержания</h5>
+                      <p class="text-sm text-charcoal-700">Программа лояльности, повышение LTV, реферальная система для выпускников</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-expand-arrows-alt text-purple-600 mr-2"></i>Масштабирование
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Региональная экспансия</h5>
+                      <p class="text-sm text-charcoal-700">Выход на рынки СНГ, Европы, работа с русскоязычной диаспорой, локализация контента</p>
+                    </div>
+
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Новые продукты</h5>
+                      <p class="text-sm text-charcoal-700">Разработка продвинутых курсов, специализаций, корпоративных решений</p>
+                    </div>
+
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                      <h5 class="font-medium text-charcoal-900 mb-2">Партнерская сеть</h5>
+                      <p class="text-sm text-charcoal-700">Франчайзинг, аффилированные программы, региональные представители</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 class="font-semibold text-lg text-charcoal-900 mb-4 flex items-center">
+                    <i class="fas fa-trophy text-purple-600 mr-2"></i>Итоговые результаты
+                  </h4>
+                  <div class="space-y-4">
+                    <div class="bg-purple-50 rounded-lg p-4">
+                      <div class="text-center mb-4">
+                        <div class="text-2xl font-bold text-charcoal-900">45-65%</div>
+                        <div class="text-sm text-charcoal-600">Рост выручки</div>
+                      </div>
+                    </div>
+
+                    <div class="bg-purple-50 rounded-lg p-4">
+                      <div class="text-center mb-4">
+                        <div class="text-2xl font-bold text-charcoal-900">25%</div>
+                        <div class="text-sm text-charcoal-600">Снижение CAC</div>
+                      </div>
+                    </div>
+
+                    <div class="bg-purple-50 rounded-lg p-4">
+                      <div class="text-center mb-4">
+                        <div class="text-2xl font-bold text-charcoal-900">50%</div>
+                        <div class="text-sm text-charcoal-600">Доля онлайн-продаж</div>
+                      </div>
+                    </div>
+
+                    <div class="bg-purple-50 rounded-lg p-4">
+                      <div class="text-center mb-4">
+                        <div class="text-2xl font-bold text-charcoal-900">70+</div>
+                        <div class="text-sm text-charcoal-600">Городов охвата</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Metrics -->
+      <section id="metrics" class="px-6 py-12 bg-white">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="font-serif text-4xl font-bold text-charcoal-900 mb-12 text-center">Ключевые метрики успеха</h2>
+
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-sage-50 border border-sage-200 rounded-xl p-8 text-center">
+              <div class="bg-sage-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-chart-line text-sage-600 text-2xl"></i>
+              </div>
+              <h3 class="text-3xl font-bold text-charcoal-900 mb-2">40-60%</h3>
+              <p class="text-charcoal-700 font-medium">Рост выручки</p>
+              <p class="text-sm text-charcoal-500 mt-2">За 12 месяцев реализации стратегии</p>
+            </div>
+
+            <div class="bg-blue-50 border border-blue-200 rounded-xl p-8 text-center">
+              <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-dollar-sign text-blue-600 text-2xl"></i>
+              </div>
+              <h3 class="text-3xl font-bold text-charcoal-900 mb-2">25%</h3>
+              <p class="text-charcoal-700 font-medium">Снижение CAC</p>
+              <p class="text-sm text-charcoal-500 mt-2">За счет автоматизации и оптимизации</p>
+            </div>
+
+            <div class="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
+              <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-laptop text-green-600 text-2xl"></i>
+              </div>
+              <h3 class="text-3xl font-bold text-charcoal-900 mb-2">50%</h3>
+              <p class="text-charcoal-700 font-medium">Доля онлайн-продаж</p>
+              <p class="text-sm text-charcoal-500 mt-2">К концу 12-месячного периода</p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white border border-sage-200 rounded-xl p-6">
+              <h3 class="font-semibold text-lg text-charcoal-900 mb-6 flex items-center">
+                <i class="fas fa-tachometer-alt text-sage-600 mr-2"></i>Операционные метрики
+              </h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">Конверсия воронки продаж</span>
+                  <span class="font-semibold text-charcoal-900">15% → 25%</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 60%"></div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">LTV (средний)</span>
+                  <span class="font-semibold text-charcoal-900">+35%</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 70%"></div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">ROI маркетинга</span>
+                  <span class="font-semibold text-charcoal-900">250%</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white border border-sage-200 rounded-xl p-6">
+              <h3 class="font-semibold text-lg text-charcoal-900 mb-6 flex items-center">
+                <i class="fas fa-users text-sage-600 mr-2"></i>Метрики аудитории
+              </h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">Географический охват</span>
+                  <span class="font-semibold text-charcoal-900">70+ городов</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 90%"></div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">Корпоративные клиенты</span>
+                  <span class="font-semibold text-charcoal-900">15+ компаний</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 75%"></div>
+                </div>
+
+                <div class="flex justify-between items-center">
+                  <span class="text-charcoal-700">Сообщество выпускников</span>
+                  <span class="font-semibold text-charcoal-900">5000+ человек</span>
+                </div>
+                <div class="w-full bg-sage-200 rounded-full h-2">
+                  <div class="bg-sage-600 h-2 rounded-full" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12 bg-sage-100 border border-sage-200 rounded-xl p-8">
+            <h3 class="font-semibold text-xl text-charcoal-900 mb-6 text-center">
+              <i class="fas fa-calendar-check text-sage-600 mr-2"></i>Квартальный план достижения метрик
+            </h3>
+            <div class="grid md:grid-cols-4 gap-6">
+              <div class="text-center">
+                <div class="bg-sage-600 text-white rounded-full w-10 h-10 flex items-center justify-center mx-auto mb-3 font-bold">Q1</div>
+                <h4 class="font-medium text-charcoal-900 mb-2">Фундамент</h4>
+                <ul class="text-sm text-charcoal-700 space-y-1">
+                  <li>• CRM и аналитика</li>
+                  <li>• Автоматизация</li>
+                  <li>• CAC -15%</li>
+                </ul>
+              </div>
+
+              <div class="text-center">
+                <div class="bg-sage-600 text-white rounded-full w-10 h-10 flex items-center justify-center mx-auto mb-3 font-bold">Q2</div>
+                <h4 class="font-medium text-charcoal-900 mb-2">Онлайн</h4>
+                <ul class="text-sm text-charcoal-700 space-y-1">
+                  <li>• Гибридные продукты</li>
+                  <li>• Контент-маркетинг</li>
+                  <li>• Доля онлайн 25%</li>
+                </ul>
+              </div>
+
+              <div class="text-center">
+                <div class="bg-sage-600 text-white rounded-full w-10 h-10 flex items-center justify-center mx-auto mb-3 font-bold">Q3</div>
+                <h4 class="font-medium text-charcoal-900 mb-2">B2B</h4>
+                <ul class="text-sm text-charcoal-700 space-y-1">
+                  <li>• Корпоративные клиенты</li>
+                  <li>• Партнерства</li>
+                  <li>• Рост LTV +20%</li>
+                </ul>
+              </div>
+
+              <div class="text-center">
+                <div class="bg-sage-600 text-white rounded-full w-10 h-10 flex items-center justify-center mx-auto mb-3 font-bold">Q4</div>
+                <h4 class="font-medium text-charcoal-900 mb-2">Масштаб</h4>
+                <ul class="text-sm text-charcoal-700 space-y-1">
+                  <li>• Оптимизация</li>
+                  <li>• Международный рост</li>
+                  <li>• Целевые метрики</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="px-6 py-12 bg-charcoal-900 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+          <div class="mb-8">
+            <h3 class="font-serif text-2xl font-bold mb-4">Готовы к трансформации?</h3>
+            <p class="text-sage-200 max-w-2xl mx-auto">
+              Сочетание 15-летнего опыта, международной аккредитации и цифровой трансформации откроет новые горизонты для вашей школы коучинга.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8 mb-8">
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+              <i class="fas fa-clock text-sage-400 text-2xl mb-3"></i>
+              <h4 class="font-semibold mb-2">Срок реализации</h4>
+              <p class="text-sage-200 text-sm">12 месяцев поэтапной трансформации</p>
+            </div>
+
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+              <i class="fas fa-chart-line text-sage-400 text-2xl mb-3"></i>
+              <h4 class="font-semibold mb-2">Ожидаемый рост</h4>
+              <p class="text-sage-200 text-sm">40-60% увеличение выручки</p>
+            </div>
+
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+              <i class="fas fa-globe text-sage-400 text-2xl mb-3"></i>
+              <h4 class="font-semibold mb-2">Географический охват</h4>
+              <p class="text-sage-200 text-sm">70+ городов и международные рынки</p>
+            </div>
+          </div>
+
+          <div class="text-sage-300 text-sm">
+            <p>Стратегический план разработан на основе анализа рынка и конкурентного окружения</p>
+            <p class="mt-2">Для реализации рекомендуется привлечение экспертов в области цифровой трансформации образования</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+  
+
+</body></html>
